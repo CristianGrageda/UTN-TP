@@ -72,7 +72,7 @@ public class Factura {
 	@Override
 	public String toString() {
 		return idFactura + "," + nombre + "," + apellido + "," + dni
-				+ "," + telefono + "," + monto + "," + puntos + "," + esGanador;
+				+ "," + telefono + ",$" + monto + "," + puntos + "," + esGanador;
 	}
 	
 }

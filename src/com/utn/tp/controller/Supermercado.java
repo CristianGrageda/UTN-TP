@@ -48,10 +48,9 @@ public class Supermercado {
 						Integer.parseInt(itemPorLinea[0]), 
 						itemPorLinea[1], 
 						itemPorLinea[2], 
-						itemPorLinea[3], 
+						Integer.parseInt(itemPorLinea[3]), 
 						Integer.parseInt(itemPorLinea[4]), 
-						11111111, // DNI: Actualizar archivo csv y codigo
-						"+54 9 222222")); // Telefono: Actualizar archivo csv y codigo
+						itemPorLinea[5])); 
 			}
 			brPersonas.close();
 		}catch(Exception e) {

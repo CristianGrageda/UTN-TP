@@ -4,17 +4,15 @@ public class Persona {
 	private int idPersona;
 	private String nombre;
 	private String apellido;
-	private String sexo;
 	private int edad;
 	private int dni;
 	private String telefono;
 	
 	// CONSTRUCTOR
-	public Persona(int idPersona, String nombre, String apellido, String sexo, int edad, int dni, String telefono) {
+	public Persona(int idPersona, String nombre, String apellido, int edad, int dni, String telefono) {
 		this.idPersona = idPersona;
 		this.nombre = nombre;
 		this.apellido = apellido;
-		this.sexo = sexo;
 		this.edad = edad;
 		this.dni = dni;
 		this.telefono = telefono;
@@ -43,14 +41,6 @@ public class Persona {
 
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
-	}
-
-	public String getSexo() {
-		return sexo;
-	}
-
-	public void setSexo(String sexo) {
-		this.sexo = sexo;
 	}
 
 	public int getEdad() {

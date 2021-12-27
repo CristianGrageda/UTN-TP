@@ -6,8 +6,8 @@ import java.util.List;
 public class Cliente extends Persona{
 	private List<Producto> carrito;
 	
-	public Cliente(int idPersona, String nombre, String apellido, String sexo, int edad, int dni, String telefono) {
-		super(idPersona, nombre, apellido, sexo, edad, dni, telefono);
+	public Cliente(int idPersona, String nombre, String apellido, int edad, int dni, String telefono) {
+		super(idPersona, nombre, apellido, edad, dni, telefono);
 		this.carrito = new ArrayList<Producto>();
 	}
 	

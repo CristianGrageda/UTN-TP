@@ -4,13 +4,13 @@ public class Persona {
 	private int idPersona;
 	private String nombre;
 	private String apellido;
-	private int sexo;
+	private String sexo;
 	private int edad;
 	private int dni;
 	private String telefono;
 	
 	// CONSTRUCTOR
-	public Persona(int idPersona, String nombre, String apellido, int sexo, int edad, int dni, String telefono) {
+	public Persona(int idPersona, String nombre, String apellido, String sexo, int edad, int dni, String telefono) {
 		this.idPersona = idPersona;
 		this.nombre = nombre;
 		this.apellido = apellido;
@@ -45,11 +45,11 @@ public class Persona {
 		this.apellido = apellido;
 	}
 
-	public int getSexo() {
+	public String getSexo() {
 		return sexo;
 	}
 
-	public void setSexo(int sexo) {
+	public void setSexo(String sexo) {
 		this.sexo = sexo;
 	}
 
